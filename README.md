@@ -13,3 +13,8 @@ How is the script working: see comments in the code, at high level:
 - bind the 3 tables and create relevant data names
 - use dply librabry to group by subject and activity and summarize
 - output the new reduced data set in a file called tidy.txt
+
+
+the repository contains:
+- a script to execute the above steps called run_analysis.R
+- a reduced data set called tidy.txt
