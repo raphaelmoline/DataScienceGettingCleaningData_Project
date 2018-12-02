@@ -49,7 +49,7 @@ require(dplyr)
 data2 <- tbl_df(data)
 data2 <- group_by(data2, Subject_id, Activity)
 summary <- summarise_all(data2, funs(mean))
-
+write.table(summary, file = "tidy.txt", row.names = FALSE)
 
 
 
